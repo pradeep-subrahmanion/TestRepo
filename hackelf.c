@@ -65,8 +65,6 @@ int main(int argc,char **argv) {
 
   int magic_zero = header[0];
 
-  //printf("%x\n",magic_zero);
-
   if(validate_elf(header) == SUCCESS)
     printf("Valid elf file\n");
   else
