@@ -70,8 +70,6 @@ int main(int argc,char **argv) {
   else
     printf("Invalid elf file\n");
 
-  //display(header+1,3);
-
   display_code_section(header);
 
   free(header);
